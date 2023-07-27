@@ -45,7 +45,7 @@ function App() {
         />
       </header>
       <div
-        className="flex flex-col h-full gap-y-2 md:hover:overflow-y-auto overflow-y-auto md:overflow-hidden"
+        className="flex flex-col h-full gap-y-2 overflow-y-auto"
         ref={containerRef}
       >
         {viewItems.map((item, idx) => (
